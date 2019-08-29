@@ -9,13 +9,12 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.h 
+ * @brief Definition of global function of stats.c
  *
- * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Augusto Serrao
+ * @date 08/28/2019
  *
  */
 #ifndef __STATS_H__
@@ -24,17 +23,13 @@
 /* Add Your Declarations and Function Comments here */ 
 
 /**
- * @brief <Add Brief Description of Function Here>
+ * @brief Prints minimum, maximum, mean, and median values of the array
  *
- * <Add Extended Description Here>
+ * @param array - Pointer to the array of unsigned char elements
+ * @param size - Number of elements in the array
  *
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- * @param <Add InputName> <add description here>
- *
- * @return <Add Return Informaiton here>
+ * @return unsigned char result of the function
  */
-
+unsigned char print_statistics(unsigned char *array, unsigned int size);
 
 #endif /* __STATS_H__ */
